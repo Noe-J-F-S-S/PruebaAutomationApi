@@ -16,6 +16,7 @@ public class MascotaStepDef {
 
     @When("consulto la mascota de ID {string}")
     public void consultoLaMascotaDeID(String arg0) {
+
         mascota.consultaMascota(arg0);
     }
 
